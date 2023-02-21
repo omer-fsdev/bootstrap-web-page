@@ -18,17 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <style>
-      .soc-med {
-        height: 40px;
-        width: 40px;
-      }
-      .brands {
-        max-height: 50px !important;
-        width: fit-content !important;
-        border: none !important;
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -69,10 +59,8 @@
       </div>
     </nav>
     <header id="header" class="card text-center vh-100 border-0">
-      <img src="./assets/img/banner.jpeg" class="card-img h-100" alt="banner" />
-      <div
-        class="card-body card-img-overlay d-flex flex-column justify-content-center align-items-center"
-      >
+      <!-- <img src="./assets/img/banner.jpeg" class="card-img h-100" alt="banner" /> -->
+      <div class="card-body card-img-overlay">
         <p class="card-title display-6">
           The IT Career of Your Dreams Starts Here!
         </p>
@@ -273,12 +261,13 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <img
+          <div class="col-md-6 about-img">
+            <!-- <img
               src="./assets/img/aboutus.jpeg"
               class="img-fluid rounded"
               alt="pic-about"
-            />
+              style=""
+            /> -->
           </div>
         </div>
       </div>
@@ -382,48 +371,53 @@
       </div>
     </div>
 
-    <div
-      class="container d-flex align-items-center justify-content-between my-5 py-5"
-    >
-      <a href="https://www.google.com/" class="brands"
-        ><img
-          src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-          class="img-thumbnail"
-          alt="pic-google"
-      /></a>
-      <a href="https://www.goldmansachs.com/" class="brands"
-        ><img
-          src="https://www.goldmansachs.com/a/pgs/images/logo.svg"
-          class="img-thumbnail"
-          alt="pic-goldman"
-      /></a>
-      <a href="https://www.apple.com/" class="brands"
-        ><img
-          src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-antivirus-software-policy-library-and-information-34.png"
-          class="img-thumbnail"
-          alt="pic-apple"
-      /></a>
-      <a href="https://www.infosys.com/" class="brands"
-        ><img
-          src="https://www.infosys.com/content/dam/infosys-web/burger-menu/de/images/logo.svg"
-          class="img-thumbnail"
-          alt="pic-isys"
-      /></a>
-      <a href="https://www2.deloitte.com/" class="brands"
-        ><img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/250px-Deloitte.svg.png"
-          class="img-thumbnail"
-          alt="pic-deloitte"
-      /></a>
+    <div class="container my-5 py-5">
+      <div class="row d-flex text-center align-items-center">
+        <div class="col">
+          <a href="https://www.google.com/" class=""
+            ><img
+              src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+              class="img-thumbnail brands"
+              alt="pic-google"
+          /></a>
+        </div>
+        <div class="col">
+          <a href="https://www.goldmansachs.com/" class=""
+            ><img
+              src="https://www.goldmansachs.com/a/pgs/images/logo.svg"
+              class="img-thumbnail brands"
+              alt="pic-goldman"
+          /></a>
+        </div>
+        <div class="col">
+          <a href="https://www.apple.com/" class=""
+            ><img
+              src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-antivirus-software-policy-library-and-information-34.png"
+              class="img-thumbnail brands"
+              alt="pic-apple"
+          /></a>
+        </div>
+        <div class="col">
+          <a href="https://www.infosys.com/" class=""
+            ><img
+              src="https://www.infosys.com/content/dam/infosys-web/burger-menu/de/images/logo.svg"
+              class="img-thumbnail brands"
+              alt="pic-isys"
+          /></a>
+        </div>
+        <div class="col">
+          <a href="https://www2.deloitte.com/" class=""
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/250px-Deloitte.svg.png"
+              class="img-thumbnail brands"
+              alt="pic-deloitte"
+          /></a>
+        </div>
+      </div>
     </div>
 
     <footer id="contact" class="card text-center border-0">
-      <img
-        src="./assets/img/map.jpeg"
-        alt="pic-contact"
-        class="card-img"
-        style="height: 75vh"
-      />
+      <div alt="pic-contact" class="card-img" style="height: 75vh"></div>
       <div class="card-img-overlay card-body text-white p-5">
         <h5 class="card-title display-3">Contact Us</h5>
         <p class="card-text">

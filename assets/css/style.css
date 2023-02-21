@@ -1,0 +1,40 @@
+header {
+  background-image: url(../img/banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header p,
+header .card-title {
+  color: #5a028a;
+}
+
+header div {
+  margin: 20% auto;
+}
+
+.about-img {
+  background-image: url(../img/aboutus.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.soc-med {
+  height: 40px;
+  width: 40px;
+}
+
+.brands {
+  max-height: 50px;
+  width: fit-content;
+  border: none;
+}
+footer .card-img {
+  background-image: url(../img/map.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20% auto;
+}
